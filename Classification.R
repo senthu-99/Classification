@@ -1,14 +1,8 @@
 
-#ASSESSED EXERCISE:
-# Write a script to do the following:
-# 1. Learn a decision tree for the 3 classes of wheat kernel.
-# 2. Test it by scoring the accuracy on test data using different degrees of pruning using prune.
-# 3. Scatterplot 2 selected variables of the data (and colour code according to the decision tree output), display the learnt tree and calculate the accuracy.
-# 4. Compare the accuracy of the different pruned trees to KNN with different values of k
-
-
 # Load Dataset in
 seedsdata = read.csv('C:/Users/senth/Documents/RDatasets/seeds_dataset_class.csv', sep=",")
+
+#----------------------------------------------------------Data Pre-Processing-------------------------------------------------------------------------
 
 # Randomise Dataset - Ensures that the training/test set are both random samples 
 # Biases in the ordering of the dataset are not retained in the samples we take for training and testing the models.
